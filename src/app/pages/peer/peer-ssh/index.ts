@@ -1,0 +1,1 @@
+export { PeerSSHComponent } from './peer-ssh.component';

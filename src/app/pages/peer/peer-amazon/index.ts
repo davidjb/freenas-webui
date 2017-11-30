@@ -1,0 +1,1 @@
+export { PeerAmazonComponent } from './peer-amazon.component';

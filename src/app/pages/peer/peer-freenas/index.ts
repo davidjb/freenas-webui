@@ -1,0 +1,1 @@
+export { PeerFreeNASComponent } from './peer-freenas.component';
