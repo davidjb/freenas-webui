@@ -107,6 +107,11 @@ export const rootRouterConfig: Routes = [{
         path : 'guide',
         loadChildren : './pages/guide/guide.module#GuideModule',
         data: { title: 'Guide', breadcrumb: 'Guide'}
+      },
+      {
+        path : 'peer',
+        loadChildren: './pages/peer/peer.module#PeerModule',
+        data: { title: 'Peer', breadcrumb: 'Peer'}
       }
     ]
   },

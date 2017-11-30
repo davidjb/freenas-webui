@@ -175,13 +175,13 @@ export class NavigationService {
       icon: 'insert_chart',
       state: 'reportsdashboard',
     },
-    //  {
-    //    name: 'GUIDE',
-    //    type: 'link',
-    //    tooltip: 'Storage',
-    //    icon: 'storage',
-    //    state: 'storage'
-    //  },
+     {
+       name: 'PEER',
+       type: 'link',
+       tooltip: 'Peer',
+       icon: 'storage',
+       state: 'peer'
+     },
     //    {
     //      name: 'WIZARD',
     //      type: 'link',
