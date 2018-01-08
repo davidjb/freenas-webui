@@ -93,7 +93,6 @@ export class AdvancedComponent implements OnInit {
 
     }, () => {
       if (this.job.state == 'SUCCESS') {
-        console.log("success:", this.job);
       } else if (this.job.state == 'FAILED') {
         this.openSnackBar("Please check your network connection", "Failed");
       }
